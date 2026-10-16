@@ -316,11 +316,6 @@ sudo chmod -R 755 /usr/share/nginx/html
 # Ajustar el contexto de seguridad de SELinux para permitir a Nginx servir el contenido
 sudo chcon -Rt httpd_sys_content_t /usr/share/nginx/html/
 ```
-
-### Evidencias del Paso 5:
-![Edición en Nano](img/nano_edit.png)
-![Comandos de Despliegue y SELinux](img/deploy_commands.png)
-
 ---
 
 ## 6. Configuración de Subdominio en DuckDNS y Comprobación Externa

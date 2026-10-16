@@ -46,9 +46,12 @@ Para el despliegue se reutilizó la infraestructura de red virtual creada en el 
 5. Una vez aprovisionada, la instancia pasó a estado **Running** con la dirección IP pública **`147.15.45.117`**.
 
 ### Evidencias del Paso 2:
-![Formulario de Creación de Instancia](img/create_instance.png)
-![Configuración de VNIC y Subred](img/vnic_config.png)
-![Instancia en Estado Running](img/instance_running.png)
+<img width="901" height="415" alt="image" src="https://github.com/user-attachments/assets/f6e11411-d460-43dc-a912-13a770d3f388" />
+<img width="800" height="382" alt="image" src="https://github.com/user-attachments/assets/84cddc83-4d5d-441f-984b-684ad1630d1a" />
+<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/6ad8f177-a3c4-40b5-bbce-b333dfec836f" />
+<img width="901" height="427" alt="image" src="https://github.com/user-attachments/assets/8d11bfc8-9e10-425d-b167-ea7a48ac8b41" />
+
+
 
 ---
 
@@ -70,9 +73,11 @@ ssh -i ~/web-key.key opc@147.15.45.117
 ```
 
 ### Evidencias del Paso 3:
-![Inicio de Oracle Cloud Shell](img/cloudshell_init.png)
-![Verificación de Directorio SSH](img/ssh_dir.png)
-![Conexión SSH Exitosa a la VM](img/ssh_connection.png)
+<img width="1361" height="242" alt="image" src="https://github.com/user-attachments/assets/69efb339-0228-4c7d-a3bc-b83c4440ce4e" />
+
+<img width="546" height="162" alt="image" src="https://github.com/user-attachments/assets/acc57194-89b4-452b-8e83-2a22178aa319" />
+<img width="695" height="242" alt="image" src="https://github.com/user-attachments/assets/d70cf541-ea40-4228-ac0f-25a40fc04170" />
+
 
 ---
 
@@ -96,7 +101,8 @@ sudo systemctl status nginx
 ```
 
 ### Evidencia del Paso 4:
-![Estado Activo de Nginx](img/nginx_status.png)
+<img width="1906" height="709" alt="image" src="https://github.com/user-attachments/assets/e742bd9e-e1e7-4ea6-bb42-9d08f9d6500e" />
+
 
 ---
 
@@ -327,6 +333,4 @@ sudo chcon -Rt httpd_sys_content_t /usr/share/nginx/html/
    * La adaptabilidad del diseño (Responsive CSS) en dispositivos móviles.
 
 ### Evidencias del Paso 6:
-![Panel de Configuración de DuckDNS](img/duckdns_config.png)
-![Comprobación en Navegador de Escritorio](img/web_desktop.png)
-![Comprobación de Diseño Adaptable Móvil](img/web_mobile.png)
+<img width="1872" height="1015" alt="image" src="https://github.com/user-attachments/assets/c331dd66-92b8-4939-8c2f-076acbfd565b" />
